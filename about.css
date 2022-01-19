@@ -1,0 +1,44 @@
+.text{
+    margin: 50px;
+    background-color: #ffffff;
+   /* position: absolute; */
+   
+    opacity: 0.6;
+}
+.text >h1{
+    margin: 3%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}  
+.text >p{
+    margin: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+} 
+.text >h2{
+    margin: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+} 
+/*link{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    position: absolute;
+    text-decoration: none;
+}*/
+.text >a >i{
+    padding: 5px;
+    font-size: 60px;
+    color: rgb(9, 1, 126);
+    
+}

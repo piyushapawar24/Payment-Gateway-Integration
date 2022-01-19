@@ -1,0 +1,81 @@
+body, html{
+    margin: 0px;
+    height: 100%;
+    background-image: url("donate.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    
+}
+.heading{
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+.heading >h1{
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+}
+.heading >p{
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+}
+.navbar{
+    
+    margin: 0;
+    padding: 8px 5px;
+    background-color: brown;
+    
+}
+.navbar > ul{
+    list-style-type: none;
+
+}
+.navbar > ul > li{
+    font-size: larger;
+    
+    
+}
+.navbar > ul > li >a{
+    
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+   
+    
+}
+.button{
+    position: sticky    ;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: orangered;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(248, 95, 24);
+    
+}
+.button:hover{
+    background-color: rgba(240, 229, 223, 0.884);
+}
+.button:active{
+    background-color:gainsboro;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+@media  screen and (min-width:380px) {
+    body{
+       background-size: cover;
+    }
+}
